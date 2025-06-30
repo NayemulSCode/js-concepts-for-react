@@ -2,19 +2,13 @@ import React, { useState } from 'react';
 import './App.css'; // Assuming you have some basic styles here
 
 // Import utility functions
-import {
-  createUserGreeting,
-  processNumbers,
-  getNestedProperty,
-  wait,
-  summarizeOrder,
-  thisTestObject
-} from './utils'; // .js extension is often optional with build tools
+
 
 // Import React components
 import UserProfile from './components/UserProfile';
 import TodoList from './components/TodoList';
 import AsyncDataFetcher from './components/AsyncDataFetcher';
+import { createUserGreeting, getNestedProperty, processNumbers, summarizeOrder, thisTestObject, wait } from './utils/utils';
 
 function App() {
   // State for AsyncDataFetcher example
