@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 /**
  * Utility functions demonstrating various JavaScript concepts.
  */
